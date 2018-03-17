@@ -1,3 +1,7 @@
+---
+date: 2016-12-22T20:04:40.407Z
+title: What is the difference between Optimistic Concurrency versus Pessimistic Concurrency
+---
 Optimistic Locking is a way of versioning your record by add either a date, timestamp or hash.  If there are multiple users updating that record, the software will know if the record has changed based on the hash.  The reason for this is that you have to make sure the version is atomic.  This means that the record hasn’t been updated by another user while you were editing the value.
 
 If the record’s version number has changed, then we can assume it is dirty and you would then abort the transaction and the user can restart the process.
