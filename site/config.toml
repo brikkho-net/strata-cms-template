@@ -46,7 +46,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "ASP.Net Full Stack Developer, Blogger, Father, Husband, Son, Brother."
-		content = "Senior .Net Developer at Waterloo's most innovative Software Development firm. Works on BidsAndTenders.ca application. Fullstack engineer working with ASP.NET MVC, Angular 2, Front end technologies like CSS, Javascript, AngularJS, VueJS."
+		content = "Senior .Net Developer at Waterloo's most innovative Software Development firm. Works on a SaaS application. Fullstack engineer working with ASP.NET MVC, Angular 2, Front end technologies like CSS, Javascript, AngularJS, VueJS."
 
 
 	[params.portfolio]
