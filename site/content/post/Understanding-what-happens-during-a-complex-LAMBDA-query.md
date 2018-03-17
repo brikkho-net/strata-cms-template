@@ -1,3 +1,7 @@
+---
+date: 2016-12-22T20:04:40.407Z
+title: Understanding what happens during a complex LAMBDA query
+---
 LAMBDA expressions were introduced in C# 3.0 (.NET 3.5) along with LINQ.  The LAMBDA expression is a shorter way of representing anonymous methods using special syntax.
 
 For example, the following anonymous method checks if the customers balance is over $1000:
