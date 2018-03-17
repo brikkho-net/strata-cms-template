@@ -1,3 +1,7 @@
+---
+date: 2016-12-22T20:04:40.407Z
+title: Whats the difference between IEnumerable and IQueryable?
+---
 The main difference between the 2 is that of efficiency:
 
 IEnumerable will return all the records at once.
