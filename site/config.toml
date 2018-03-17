@@ -88,12 +88,7 @@ paginate = 10
 			submit = "Send message"
 
 
-# Menu links that appear on the left sidebar
-[[menu.main]]
-	name = "Home"
-	url  = "/"
-	weight = 0
- 
+# Menu links that appear on the left sidebar 
 
 [[menu.main]]
 	name = "Blog"
