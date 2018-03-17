@@ -48,48 +48,7 @@ paginate = 10
 		title = "ASP.Net Full Stack Developer, Blogger, Father, Husband, Son, Brother."
 		content = "Senior .Net Developer at Waterloo's most innovative Software Development firm. Works on a SaaS application. Fullstack engineer working with ASP.NET MVC, Angular 2, Front end technologies like CSS, Javascript, AngularJS, VueJS."
 
-
-	[params.portfolio]
-		hide  = false
-		title = "Recent Work"
-
-		# The images and thumbnails are stored under static/images
-		# Create and change subfolders as you like
-		[[params.portfolio.gallery]]
-			image = "fulls/01.jpg"
-			thumb = "thumbs/01.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/02.jpg"
-			thumb = "thumbs/02.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/03.jpg"
-			thumb = "thumbs/03.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/05.jpg"
-			thumb = "thumbs/05.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/06.jpg"
-			thumb = "thumbs/06.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+ 
 
 	[params.recentposts]
 		hide  = false
