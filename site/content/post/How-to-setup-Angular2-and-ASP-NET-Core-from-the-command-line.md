@@ -1,3 +1,7 @@
+---
+date: 2016-12-22T20:04:40.407Z
+title: How to setup Angular2 and ASP.NET Core from the command line
+---
 Setting up Asp.Net Core and Angular2 is actually very easy!  There are several ways to setup a project.
 
 Before we can start using the command line, we need to install the following:
