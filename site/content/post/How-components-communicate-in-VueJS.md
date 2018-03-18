@@ -10,6 +10,8 @@ Using Props and Emit Method
 When trying to pass data from Child 1 to the Parent, you have to use the Props method and the Emit method.
 
 Using an Event Bus
+There is a second strategy where we can use an Event Bus.  Using this strategy, we have to create a listener.  
+
 
 <style>
 img {
