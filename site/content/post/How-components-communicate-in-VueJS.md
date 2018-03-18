@@ -15,7 +15,7 @@ You got events ($emit ) to pass data from CHILD => PARENT.
  
  
 <strong>Using an Event Bus</strong>
-<img src="/images/component-communication.jpg" alt="Components in VueJS communicate in a Unidirectional manner" />
+<img src="/images/event-bus-sibling-to-siblin.jpg" alt="Components in VueJS communicate sibling to sibling using event bus" />
 When you have two sibling components which you need to communicate with each other: You can use an event bus to pass data from SIBLING => SIBLING.
 
 There is a second strategy where we can use an Event Bus.  Using this strategy, we have to create a listener.  
