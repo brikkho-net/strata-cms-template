@@ -2,14 +2,14 @@
 date: 2018-03-09
 title: How components communicate in VueJS
 ---
-** Components in VueJS communicate in a Unidirectional manner.  
+<strong>Components in VueJS communicate in a Unidirectional manner</strong>  
 
 <img src="/images/component-communication.jpg" alt="Components in VueJS communicate in a Unidirectional manner" />
 
-** Using Custom Event and Props
+<strong>Using Custom Event and Props</strong>
 When trying to pass data from Child 1 to the Parent, you have to use the Props method and the Emit method.
 
-** Using an Event Bus
+Using an Event Bus
 There is a second strategy where we can use an Event Bus.  Using this strategy, we have to create a listener.  
 
 
