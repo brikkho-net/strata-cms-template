@@ -1,5 +1,5 @@
 ---
-date: 2018-03-09
+date: 03-09-2018
 title: How components communicate in VueJS
 ---
 Components in VueJS communicate in a Unidirectional manner.  
