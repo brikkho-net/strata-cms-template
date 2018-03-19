@@ -63,7 +63,7 @@ paginate = 10
 			"Waterloo, ON",
 			"Canada"
 		]
-		phone = "647-548-5237"
+		phone = "(647) 933-1469"
 
 		# Since this template is static, the contact form uses www.formspree.io as a
 		# proxy. The form makes a POST request to their servers to send the actual
