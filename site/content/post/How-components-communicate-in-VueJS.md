@@ -17,9 +17,10 @@ Using v-on with Custom Events
 
 Every Vue instance implements an events interface, which means it can:
 
-Listen to an event using $on(eventName)
-
-Trigger an event using $emit(eventName, optionalPayload)
+<ul>
+ <li>Listen to an event using $on(eventName)</li> 
+ <li>Trigger an event using $emit(eventName, optionalPayload)</li> 
+</ul> 
 
 <strong>Props</strong>
 
