@@ -71,6 +71,10 @@ bus.$on('id-selected', function (id) {
 
 In more complex cases, you should consider employing a dedicated state-management pattern.
 
+State Management
+Official Flux-Like Implementation
+Large applications can often grow in complexity, due to multiple pieces of state scattered across many components and the interactions between them. To solve this problem, Vue offers vuex: our own Elm-inspired state management library. It even integrates into vue-devtools, providing zero-setup access to time travel.
+
 Useful Links:
 
 Official Docs - Props: http://vuejs.org/guide/components.html#Props
