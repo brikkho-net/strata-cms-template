@@ -13,6 +13,14 @@ You got props  to pass data from a PARENT => CHILD.
 
 You got events ($emit ) to pass data from CHILD => PARENT.
 
+Using v-on with Custom Events
+
+Every Vue instance implements an events interface, which means it can:
+
+Listen to an event using $on(eventName)
+
+Trigger an event using $emit(eventName, optionalPayload)
+
 <strong>Props</strong>
 
 Passing Data with Props
