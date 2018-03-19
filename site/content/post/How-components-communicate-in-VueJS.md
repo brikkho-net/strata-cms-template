@@ -19,11 +19,7 @@ Passing Data with Props
 
 Every component instance has its own isolated scope. This means you cannot (and should not) directly reference parent data in a child component’s template. Data can be passed down to child components using props.
 
-<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> bus = <span class="keyword">new</span> Vue()</span><br></pre></td></tr></tbody></table></figure>
 
-<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// in component A's method</span></span><br><span class="line">bus.$emit(<span class="string">'id-selected'</span>, <span class="number">1</span>)</span><br></pre></td></tr></tbody></table></figure>
-
-<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// in component B's created hook</span></span><br><span class="line">bus.$on(<span class="string">'id-selected'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">id</span>) </span>{</span><br><span class="line">  <span class="comment">// ...</span></span><br><span class="line">})</span><br></pre></td></tr></tbody></table></figure>
 
 A prop is a custom attribute for passing information from parent components. A child component needs to explicitly declare the props it expects to receive using the props option:
 
@@ -61,13 +57,11 @@ There is a second strategy where we can use an Event Bus.  Using this strategy, 
 Non Parent-Child Communication
 Sometimes two components may need to communicate with one-another but they are not parent/child to each other. In simple scenarios, you can use an empty Vue instance as a central event bus:
 
-var bus = new Vue()
-// in component A's method
-bus.$emit('id-selected', 1)
-// in component B's created hook
-bus.$on('id-selected', function (id) {
-  // ...
-})
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> bus = <span class="keyword">new</span> Vue()</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// in component A's method</span></span><br><span class="line">bus.$emit(<span class="string">'id-selected'</span>, <span class="number">1</span>)</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight js"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">// in component B's created hook</span></span><br><span class="line">bus.$on(<span class="string">'id-selected'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">id</span>) </span>{</span><br><span class="line">  <span class="comment">// ...</span></span><br><span class="line">})</span><br></pre></td></tr></tbody></table></figure>
 
 In more complex cases, you should consider employing a dedicated state-management pattern.
 
