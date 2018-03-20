@@ -1,5 +1,4 @@
----
-date: 0017-01-04T15:04:10.000Z
+--- 
 title: How components communicate in VueJS
 ---
 <strong>Components in VueJS communicate in a Unidirectional manner</strong>  
