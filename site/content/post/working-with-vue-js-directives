@@ -1,3 +1,11 @@
+---
+date: 2016-09-09T10:24:16-04:00
+title: Working with Vue.JS Directives
+---
+
+
+Working with Vue.JS Directives
+
 What are directives?
 Directives are tiny commands that we put on dom elements.  
 There are 2 types of directives, built-in directives and custom directives.  In General, a built-in directive starts with v-.  For example v-if, v-text, v-html.
