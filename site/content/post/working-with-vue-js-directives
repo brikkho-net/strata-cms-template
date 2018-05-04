@@ -42,3 +42,6 @@ Below we will replace the v-on:click built in directive:
         }
     }
 </script>
+
+Official Docs - Custom Directives: http://vuejs.org/guide/custom-directive.html
+
