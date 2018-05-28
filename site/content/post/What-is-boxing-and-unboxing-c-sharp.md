@@ -22,14 +22,25 @@ C# allows us to convert a Value Type to a Reference Type, and back again to Valu
 </tr>
   <tr>
   <td>
-      1:	int Val = 1;
-      2:	Object Obj = Val; //Boxing
+      1:	int Val = 1; 
   </td>
   <td>
        1:	int Val = 1;
-       2:	Object Obj = Val; //Boxing
+  </td>
+</tr>
+    <tr>
+  <td> 
+      2:	Object Obj = Val; //Boxing
+  </td>
+  <td> 
+       2:	Object Obj = Val; //Boxing 
+  </td>
+</tr>
+   <tr>
+  <td> 
+  </td>
+  <td> 
        3:	int i = (int)Obj; //Unboxing
   </td>
 </tr>
-  
 </table>
