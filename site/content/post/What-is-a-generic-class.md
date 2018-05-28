@@ -10,3 +10,7 @@ A generic class can be defined using angle brackets <>. For example, the followi
 
 In the following code above, MyGenericCLass is defined with <T>.  This tells the compiler that MyGenericClass is a generic and the type will be defined later at compile time. The compiler then assigns the type based on the type passed by the caller when instantiating a class. 
  
+Advantages of Generic:
+1. Increases the reusability of the code.
+2. Generic are type safe. You get compile time errors if you try to use a different type of data than the one specified in the definition.
+3. Generic has a performance advantage because it removes the possibilities of boxing and unboxing.
