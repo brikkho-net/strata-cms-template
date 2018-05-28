@@ -7,4 +7,6 @@ At its core, a generic class is a special class that allows you to define a clas
 A generic class can be defined using angle brackets <>. For example, the following is a simple generic class with a generic member variable, generic method and property.
 
 <iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/L11i4X" frameborder="0"></iframe>
+
+In the following code above, MyGenericCLass is defined with <T>.  This tells the compiler that MyGenericClass is a generic and the type will be defined later at compile time. The compiler then assigns the type based on the type passed by the caller when instantiating a class. 
  
