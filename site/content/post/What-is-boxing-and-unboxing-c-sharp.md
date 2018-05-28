@@ -10,3 +10,26 @@ C# Type System contains three Types:
 C# allows us to convert a Value Type to a Reference Type, and back again to Value Types. The operation of Converting a Value Type to a Reference Type is called Boxing and the reverse operation is called Unboxing.
 
  
+<table>
+  <caption>Difference between Dispose &amp; Finalize Method</caption>
+<tr>
+  <th>
+    Boxing
+  </th>
+  <th>
+    Unboxing
+  </th>
+</tr>
+  <tr>
+  <td>
+      1:	int Val = 1;
+      2:	Object Obj = Val; //Boxing
+  </td>
+  <td>
+       1:	int Val = 1;
+       2:	Object Obj = Val; //Boxing
+       3:	int i = (int)Obj; //Unboxing
+  </td>
+</tr>
+  
+</table>
