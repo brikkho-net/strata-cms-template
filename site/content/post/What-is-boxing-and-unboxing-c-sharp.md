@@ -12,7 +12,10 @@ C# allows us to convert a Value Type to a Reference Type, and back again to Valu
  
 <table>
   <caption>Difference between Dispose &amp; Finalize Method</caption>
-<tr>
+<tr> 
+  <th>
+    Type
+  </th>
   <th>
     Boxing
   </th>
@@ -21,6 +24,9 @@ C# allows us to convert a Value Type to a Reference Type, and back again to Valu
   </th>
 </tr>
   <tr>
+    <td>
+      Value
+  </td>
   <td>
       1:	int Val = 1; 
   </td>
@@ -29,6 +35,9 @@ C# allows us to convert a Value Type to a Reference Type, and back again to Valu
   </td>
 </tr>
     <tr>
+     <td>
+      Reference
+  </td>
   <td> 
       2:	Object Obj = Val; //Boxing
   </td>
@@ -37,6 +46,9 @@ C# allows us to convert a Value Type to a Reference Type, and back again to Valu
   </td>
 </tr>
    <tr>
+    <td>
+      Pointer
+  </td>
   <td> 
   </td>
   <td> 
