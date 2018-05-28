@@ -48,6 +48,5 @@ The difference between the Dispose and Finalize method in .NET are very suttle. 
       There is performance costs associated with Finalize method since it doesn't clean the memory immediately and called by GC automatically.
   </td>
 </tr>
-</table>
-<div class="table"> 
+</table> 
  
