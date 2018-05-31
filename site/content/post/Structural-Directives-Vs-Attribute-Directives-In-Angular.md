@@ -24,30 +24,17 @@ ngStyle allows us to dynamically update styles.
 < div ngClass=""></div>
 
 property binding = []
-
  
 <h2>Add A button which says 'Display'</h2>
-< button type="text" class="btn btn-primary" (click)="toggleFn()" >Display< /button >
  
-
 <h2>Add a paragraph about Wakanda</h2>
-        
-< p *ngIf="toggle">Wakanda is a city in Africa that was made famous by its large stockpiles of vibranium< /p>
-
+ 
 <h2>Toggle the displaying of that paragraph with the button created in the first step</h2>
         
 <h2>Log all button clicks in an array and output that array below the paragraph above< /h2>
-< ul>
-  < li  *ngFor="let click of btnClicks; let i = index">
-  {{i}} {{click}}
-  < /li>
-< /ul>
+ 
 <h2>Starting at the 2nd log item, give all future log items a blue background (via ngStyle) and white color (ngClass)</h2>
-< ul>
-  < li [ngClass]="i>5 ? 'blue': ''" *ngFor="let click of btnClicks; let i = index">
-  {{i}} {{click}}
-  < /li>
-< /ul>      
+     
 Below is the component code:
 
 
