@@ -16,6 +16,6 @@ onUpdateName(event:any){
 2-Way data binding
 It will update the value of the input element if we change the variable somewhere else.  In order to use 2 way data binding, we have to import the FormsModule to enable ngModel.  <br />
 < input type="text" class="form-control" [(ngModel)]="name" /> <br />
-
-Add input using 2 way data binding
+ 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MdXVlfszcKA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
