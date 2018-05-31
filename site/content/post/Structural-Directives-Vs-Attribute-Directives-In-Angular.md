@@ -25,3 +25,10 @@ ngStyle allows us to dynamically update styles.
 
 property binding = []
 
+<ul>
+        <li>Add A button which says 'Display'</li>
+        <li>Add a paragraph about Wakanda</li>
+        <li>Toggle the displaying of that paragraph with the button created in the first step</li>
+        <li>Log all button clicks in an array and output that array below the paragraph above</li>
+        <li>Starting at the 2nd log item, give all future log items a blue background (via ngStyle) and white color (ngClass)</li>
+</ul>
