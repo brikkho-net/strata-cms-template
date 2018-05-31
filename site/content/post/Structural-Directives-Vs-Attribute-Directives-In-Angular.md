@@ -36,6 +36,9 @@ property binding = []
 Below is the component code:
 
 
-<iframe width="560" height="315" src="https://stackblitz.com/edit/angular-1jaqa9?embed=1&file=src/app/wakanda/wakanda.component.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="650" height="315" src="https://stackblitz.com/edit/angular-1jaqa9?embed=1&file=src/app/wakanda/wakanda.component.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="650" height="315" src="https://stackblitz.com/edit/angular-j6mqph?embed=1&file=src/app/wakanda/wakanda.component.ts" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
  
