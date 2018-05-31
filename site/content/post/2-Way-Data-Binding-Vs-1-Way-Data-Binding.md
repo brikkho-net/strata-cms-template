@@ -7,6 +7,12 @@ Add input using 1 way data binding to the input.  This will update only in a sin
 < p >{{name}}< /p ><br />
 < input type="text" class="form-control" (input)="onUpdateName($event)" /><br />
 
+Within the component, we create a new method called onUpdateName(event: any) passing in the parameter called event of type any.
+
+onUpdateName(event:any){
+  this.name = event.target.value;
+}
+
 2-Way data binding
 It will update the value of the input element if we change the variable somewhere else.  In order to use 2 way data binding, we have to import the FormsModule to enable ngModel.  <br />
 < input type="text" class="form-control" [(ngModel)]="name" /> <br />
