@@ -19,10 +19,8 @@ Structural Directive
 
 Attribute Directives
 ngStyle allows us to dynamically update styles.
-< p [ngStyle]="{backgroundColor:getColor()}" >
-
-< div ngClass=""></div>
-
+ [ngStyle]="{backgroundColor:getColor()}"   
+ 
 property binding = []
  
 <h2>Add A button which says 'Display'</h2>
