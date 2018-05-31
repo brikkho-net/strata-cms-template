@@ -49,29 +49,6 @@ property binding = []
   < /li>
 < /ul>      
 Below is the component code:
-
-import { Component, OnInit } from '@angular/core';
-
-@Component({
-  selector: 'app-wakanda',
-  templateUrl: './wakanda.component.html',
-  styleUrls: ['./wakanda.component.css']
-})
-export class WakandaComponent implements OnInit {
-
-  constructor() { }
-  toggle = false;
-  btnClicks = [];
-  i = 1;
-  ngOnInit() {
-  }
-
-  toggleFn() {
-    this.btnClicks.push('click ' + this.i++);
-    console.log('click ' + this.i);
-    this.toggle = !this.toggle;
-  }
-}
-
+https://stackblitz.com/edit/angular-1jaqa9?embed=1&file=src/app/wakanda/wakanda.component.html
 
  
