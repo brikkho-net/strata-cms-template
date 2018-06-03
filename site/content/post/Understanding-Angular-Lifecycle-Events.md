@@ -29,6 +29,12 @@ The method receives a <code><a href="api/core/SimpleChanges" class="code-anchor"
 <p>      Initialize the directive/component after Angular first displays the data-bound properties
 and sets the directive/component's input properties.</p>
 <p>      Called <em>once</em>, after the <em>first</em> <code>ngOnChanges()</code>.</p>
+      <p> 
+Use ngOnInit() for two main reasons:<br />
+<br />
+To perform complex initializations shortly after construction.<br />
+To set up the component after Angular sets the input properties.<br />
+      </p>
     </td>
   </tr>
   <tr style="vertical-align:top">
