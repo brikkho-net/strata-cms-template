@@ -34,6 +34,7 @@ Use ngOnInit() for two main reasons:<br />
 <br />
 To perform complex initializations shortly after construction.<br />
 To set up the component after Angular sets the input properties.<br />
+        An ngOnInit() is a good place for a component to fetch its initial data.
       </p>
     </td>
   </tr>
