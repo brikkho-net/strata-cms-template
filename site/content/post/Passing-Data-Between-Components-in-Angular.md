@@ -8,8 +8,9 @@ Both use a publisher/subscriber pattern.
 Below we will demonstate how to accomplish this:
  
   <h2>1. Create three new components: GameControl, Odd and Even</h2>  
-  <iframe width="600" height="315" src="https://stackblitz.com/edit/angular-k2qeaz?embed=1&file=src/app/game-control/game-control.component.ts" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe width="600" height="315" src="https://stackblitz.com/edit/angular-k2qeaz?embed=1&file=src/app/game-control/game-control.component.ts&view=editor" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   <h2>2. The GameControl Component should have buttons to start and stop the game</h2>
+    <iframe width="600" height="315" src="https://stackblitz.com/edit/angular-k2qeaz?embed=1&file=src/app/game-control/game-control.component.html&view=editor" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   <h2>3. When starting the game, an event (holding a incrementing number) should get emitted each second (ref = setInterval())</h2>
   <h2>4. The event should be listenable from outside the component.</h2>
   <h2>5. When stopping the game, no more events should get emitted (clearInterval(ref))</h2>
