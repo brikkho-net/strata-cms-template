@@ -1,4 +1,4 @@
-baseurl = "//www.moodley.ca"
+baseurl = "//www.moodley.ca/"
 languageCode = "en-us"
 title = "Tyrone Moodley"
 theme = "hugo-strata-theme"
