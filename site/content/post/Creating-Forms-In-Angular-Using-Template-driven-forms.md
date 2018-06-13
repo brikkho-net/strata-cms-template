@@ -20,8 +20,8 @@ There are 2 ways to build form in Angular, you can use Reactive Forms or Templat
      Password is required
   </div>
 4.  A submit button.
-
-https://stackblitz.com/edit/angular-ufxm7p?embed=1&file=src/app/app.component.html
+ 
+<iframe width="100%" height="475" src="https://stackblitz.com/edit/angular-ufxm7p?embed=1&file=src/app/app.component.html" frameborder="0"></iframe>
 
 Display a warning message if the form is invalid and was touched.  Display a warning label below each input field letting them know their input is invalid.
  <div [hidden]="!myForm.valid || myForm.touched" class="alert alert-danger">
