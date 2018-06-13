@@ -9,4 +9,6 @@ There are 2 ways to build form in Angular, you can use Reactive Forms or Templat
 3.  A password field that is not null.
 4.  A submit button.
 
+Display a warning message if the form is invalid and was touched.  Display a warning label below each input field letting them know their input is invalid.
 
+After submitting the form, print the form input to the console.
