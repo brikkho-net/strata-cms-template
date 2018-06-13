@@ -37,4 +37,5 @@ When setting up a form, we need to add the following code to the form tag:
 To access the form values in the component code, we can use the ViewChild method that inherits from NgModel:
 @ViewChild("myForm") myForm: NgForm;
 
+<iframe width="100%" height="475" src="https://stackblitz.com/edit/angular-ufxm7p?embed=1&file=src/app/app.component.ts" frameborder="0"></iframe>
 
