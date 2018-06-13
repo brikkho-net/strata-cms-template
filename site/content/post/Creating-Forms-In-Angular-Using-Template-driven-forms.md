@@ -22,8 +22,17 @@ There are 2 ways to build form in Angular, you can use Reactive Forms or Templat
 4.  A submit button.
 
 Display a warning message if the form is invalid and was touched.  Display a warning label below each input field letting them know their input is invalid.
-
+ <div [hidden]="!myForm.valid || myForm.touched" class="alert alert-danger">
+          Form is not valid
+ </div>
 After submitting the form, print the form input to the console.
-
+ onSubmit() {
+    console.log(this.myForm.value);
+  }
 When setting up a form, we need to add the following code to the form tag:
 <form (ngSubmit)="onSubmit()" #myForm="ngForm">
+
+To access the form values in the component code, we can use the ViewChild method that inherits from NgModel:
+@ViewChild("myForm") myForm: NgForm;
+
+
