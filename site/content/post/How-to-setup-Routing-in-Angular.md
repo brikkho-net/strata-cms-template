@@ -7,23 +7,6 @@ Use the angular cli to add a new module.  Type "ng g m app-routing"  This will g
 
 Add the following code:
 
-` 
-const appRoutes: Routes = [
-    { path: '', component: HomeComponent },
-    { path: 'cars', component: CarsComponent, children:
-      [
-        { path: ':id/:name', component: CarComponent }
-      ]
-    },
-  {
-    path: 'boats', component: BoatsComponent, children:
-      [
-        { path: ':id', component: BoatComponent },
-        { path: ':id/edit', component: EditBoatComponent }
-      ] },
-    { path: 'not-found', component: PageNotFoundComponent },
-    { path: '**', redirectTo: '/not-found' }
-] 
-`
+<iframe width="100%" height="475" src="https://stackblitz.com/edit/angular-7r7sej?embed=1&file=src/app/app-routing.module.ts&view=editor" frameborder="0"></iframe>
 
 in the above code, we can add children to each path.  Each child can do separate things such as edit and new functions.
