@@ -22,7 +22,7 @@ There are 2 ways to build form in Angular, you can use Reactive Forms or Templat
           In addition, implement that Validator as an async Validator (replace the other one) <br />
  <br />
           Upon submitting the form, simply print the value to the console <br />
-            <iframe width="100%" height="475" src="https://stackblitz.com/edit/angular-mhqnkm?embed=1&file=src/app/app.component.ts" frameborder="0"></iframe>
+            <iframe width="100%" height="475" src="https://stackblitz.com/edit/angular-mhqnkm?embed=1&file=src/app/app.component.html" frameborder="0"></iframe>
    <br />
 
  
