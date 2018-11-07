@@ -1,16 +1,18 @@
 ---
 date: 2016-12-22T20:04:40.407Z
-title: What is a generic class Dot.NET
+title: Create new components in ReactJS
 ---
-At its core, a generic class is a special class that allows you to define a class with placeholders for the type of its fields, methods, parameters, etc.  Generics replace these placeholders with some specific type at compile time.  Generics were first introduced in C# 2.0.
- 
-A generic class can be defined using angle brackets <>. For example, the following is a simple generic class with a generic member variable, generic method and property.
+The instructions are:
+Create TWO new components: UserInput and UserOutput
+UserInput should hold an input element, UserOutput two paragraphs
+Output multiple UserOutput components in the App component (any paragraph texts of your choice)
+Pass a username (of your choice) to UserOutput via props and display it there
+Add state to the App component (=> the username) and pass the username to the UserOutput component
+Add a method to manipulate the state (=> an event-handler method)
+Pass the event-handler method reference to the UserInput component and bind it to the input-change event
+Ensure that the new input entered by the user overwrites the old username passed to UserOutput
+Add two-way-binding to your input (in UserInput) to also display the starting username
+Add styling of your choice to your components/ elements in the components - both with inline styles and stylesheets
 
-<iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/L11i4X" frameborder="0"></iframe>
+<iframe width="100%" height="475" src="https://stackblitz.com/edit/react-udv7og?embed=1&file=App.js" frameborder="0"></iframe> 
 
-In the following code above, MyGenericCLass is defined with <T>.  This tells the compiler that MyGenericClass is a generic and the type will be defined later at compile time. The compiler then assigns the type based on the type passed by the caller when instantiating a class. 
- 
-Advantages of Generic:
-1. Increases the reusability of the code.
-2. Generic are type safe. You get compile time errors if you try to use a different type of data than the one specified in the definition.
-3. Generic has a performance advantage because it removes the possibilities of boxing and unboxing.
