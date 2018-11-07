@@ -1,5 +1,5 @@
 ---
-date: 2016-12-22T20:04:40.407Z
+date: 2018-10-22T20:04:40.407Z
 title: Create new components in ReactJS
 ---
 The instructions are:
