@@ -1,6 +1,6 @@
 ---
 date: 2018-11-22T20:04:40.407Z
-title: Create new components that update user input onto screen in ReactJS
+title: Using Conditional Rendering and displaying lists in ReactJS
 ---
 
 When using conditional rendering, it is important to first create a list using an object and then output that object in the render section.  We can use the map function to iterate through the array of objects to add data to the variable.
