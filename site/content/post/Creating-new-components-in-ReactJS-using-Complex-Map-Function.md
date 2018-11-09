@@ -18,6 +18,10 @@ title: Create new components that update user input onto screen in ReactJS
 
 <iframe width="100%" height="475" src="https://stackblitz.com/edit/react-rqdprk?embed=1&file=App.js" frameborder="0"></iframe>
 
+Here are some more articles about lists and conditional rendering:
+Conditional Rendering: https://reactjs.org/docs/conditional-rendering.html
+Lists & Keys: https://reactjs.org/docs/lists-and-keys.html
+
 
 
 
