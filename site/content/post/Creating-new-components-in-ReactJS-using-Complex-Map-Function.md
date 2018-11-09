@@ -3,7 +3,11 @@ date: 2018-11-22T20:04:40.407Z
 title: Create new components that update user input onto screen in ReactJS
 ---
 
- 
+When using conditional rendering, it is important to first create a list using an object and then output that object in the render section.  We can use the map function to iterate through the array of objects to add data to the variable.
+
+Given the code below, we use the map() function to take an array of numbers and add it to an unordered list with their values. We assign the new array returned by map()
+<p data-height="265" data-theme-id="0" data-slug-hash="GjPyQr" data-default-tab="js,result" data-user="gaearon" data-pen-title="List of Numbers" class="codepen">See the Pen <a href="https://codepen.io/gaearon/pen/GjPyQr/">List of Numbers</a> by Dan Abramov (<a href="https://codepen.io/gaearon">@gaearon</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 <iframe width="100%" height="475" src="https://stackblitz.com/edit/react-rqdprk?embed=1&file=index.js" frameborder="0"></iframe> 
 
 1. Create an input field (in App component) with a change listener which outputs the length of the entered text below it (e.g in a paragraph)
